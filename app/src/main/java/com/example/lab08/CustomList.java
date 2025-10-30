@@ -18,13 +18,13 @@ public class CustomList {
         return cities.contains(city);
     }
 
-    /*
+
     public void deleteCity(City city) {
         if (!cities.contains(city)) {
-            throw new IllegalArgumentException("City not found in list");
+            throw new IllegalArgumentException();
         }
         cities.remove(city);
     }
-    */
+
 
 }
