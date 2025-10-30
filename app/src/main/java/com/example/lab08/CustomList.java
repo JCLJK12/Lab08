@@ -18,7 +18,6 @@ public class CustomList {
         return cities.contains(city);
     }
 
-
     public void deleteCity(City city) {
         if (!cities.contains(city)) {
             throw new IllegalArgumentException();
@@ -26,10 +25,9 @@ public class CustomList {
         cities.remove(city);
     }
 
-    /*
     public int countCities() {
         return cities.size();
     }
-    */
+
 
 }
